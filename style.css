@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #D3D3D3;
+    color: #001d52;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url("doodle.png");
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 1rem 0;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-style: italic;
+}
+
+.section {
+    padding: 2rem 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    margin-bottom: 2rem;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills-list li {
+    background-color: #f4f4f4;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border-left: 4px solid #001d52;
+}
+
+.job h3, .education h3 {
+    font-size: 1.25rem;
+    color: #001d52;
+}
+
+ul {
+    list-style: disc inside;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #011553;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header h2 {
+        font-size: 1.25rem;
+    }
+
+    .profile-img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+.profile{
+    a:link{
+        text-decoration: underline;
+        color:#33ffb0;
+    }
+    a:visited{
+        text-decoration: underline;
+        color:#33ffb0;
+    }
+}
