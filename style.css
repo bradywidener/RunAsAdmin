@@ -76,6 +76,14 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
+    a:link{
+        text-decoration: underline;
+        color:#33ffb0;
+    }
+    a:visited{
+        text-decoration: underline;
+        color:#33ffb0;
+    }
 }
 
 @media (max-width: 768px) {
